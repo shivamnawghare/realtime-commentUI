@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime Comment</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h2><strong>MARVEL MOVIES</strong></h2>
+                <p>
+                    The Russo Brothers’ movie has some surprising things to say about it. 
+                    As this phase of the MCU comes closer to its end,
+                    watch and find out about the profound message Captain America, 
+                    Iron Man and the rest of the Avengers have for us.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row mb-3">
+
+            <div class="col-md-12">
+                <h6 class="border-bottom pb-2">Comments :</h6>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="">Leave a comment here :</label>
+                    <textarea id="textarea" rows="3" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <button id="submitBtn" class="btn btn-success float-right"> Post comment</button>
+            </div>
+        </div>
+        <div class="col-md-12">
+
+            <ul class="comment_box">
+               
+            </ul>
+        </div>
+    </div>
+
+    <!-----------------------------CDN used for  current time----------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="/js/app.js"></script>
+
+</body>
+</html>
